@@ -235,8 +235,8 @@ export default function Index() {
                       </div>
                       <div>
                         <p className="font-medium mb-1">Телефон</p>
-                        <a href="tel:+78001234567" className="text-lg hover:text-accent transition-colors">
-                          +7 (800) 123-45-67
+                        <a href="tel:+79841413946" className="text-lg hover:text-accent transition-colors">
+                          +7 (984) 141-39-46
                         </a>
                         <p className="text-sm text-muted-foreground">Пн-Пт 9:00-18:00</p>
                       </div>
@@ -269,7 +269,7 @@ export default function Index() {
                       </div>
                       <div>
                         <p className="font-medium mb-1">Адрес</p>
-                        <p className="text-lg">г. Москва, ул. Складская, 15</p>
+                        <p className="text-lg">г. Владивосток, ул. Снеговая, 19Г</p>
                         <p className="text-sm text-muted-foreground">Склад и офис продаж</p>
                       </div>
                     </div>
