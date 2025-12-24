@@ -1,0 +1,30 @@
+{
+  "tests": [
+    {
+      "name": "Test email sending with valid data",
+      "method": "POST",
+      "body": {
+        "name": "Тестовый клиент",
+        "phone": "+79991234567",
+        "message": "Хочу узнать цены на гофрокартон"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Test missing required fields",
+      "method": "POST",
+      "body": {
+        "message": "Только сообщение"
+      },
+      "expectedStatus": 400,
+      "expectedBody": {
+        "error": "string"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
